@@ -1,0 +1,49 @@
+.header {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.291667px;
+  color: var(--text-color-secondary);
+  padding: 88px 24px 24px 16px;
+}
+
+.body {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  padding: 0 10px;
+  color: var(--text-color-secondary);
+}
+
+@media (min-width: 1100px) {
+  .header {
+    width: 525px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.520833px;
+    color: var(--text-color-secondary);
+    padding: 88px 24px 24px 16px;
+    margin-top: -150px;
+  }
+
+  .body {
+    width: 525px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 10px;
+    color: var(--text-color-secondary);
+  }
+}
